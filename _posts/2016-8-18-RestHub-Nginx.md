@@ -32,7 +32,7 @@ The server, while acting as a gateway or proxy, received an invalid response fro
 --摘自《程序员修炼之道》
 ```
 
-这本读过我读过很多遍，显然，我又忘了！！！
+这本书我读过很多遍，显然，我又忘了！！！
 
 
 
@@ -78,7 +78,7 @@ Pay是支付服务的upstream的名字，为什么Nginx把他解析(resolv)到12
 
 1. 当upstream表更新时，需要通知resthub重新生成upstream的配置文件
 2. 当api_version表更新时，需要通知resthub重新刷新api_data的缓存
-3. 当upstream更新时，需要通知resthub重新刷新api_data的缓存
+3. 当upstream表更新时，需要通知resthub重新刷新api_data的缓存
 
 但是，实际代码中，忽略了第三点。
 
