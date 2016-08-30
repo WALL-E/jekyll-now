@@ -81,3 +81,11 @@ Ruby on Rails 现状
 
 * 分布式对象（Distributed Objects，简称DO） 架构实例有CORBA/RMI/EJB/DCOM/.NET Remoting等等
 * 远程过程调用（Remote Procedure Call，简称RPC） 架构实例有SOAP/XML-RPC/Hessian/Flash AMF/DWR等等
+
+## 时间线
+1. 1991年，发布http0.9
+2. REST的第一版开发于 1994 年 10 月和 1995 年 8 月之间
+3. 1996年，发布http1.0
+4. 2000年，发布http1.1，发表论文《Architectural Styles and
+the Design of Network-based Software Architectures》
+5. 2014年，发布http2.0
